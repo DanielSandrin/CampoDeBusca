@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Busca Itens</title>
+  
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <section class="container">
+    <form>
+      <i class="fas fa-search"></i>
+      <input type="text" name="" id="search-item" placeholder="Buscar produtos"
+      onkeyup="search()">
+    </form>
+
+    <div class="product-list">
+
+      <div class="product" alt="">
+        <img src="img/calca2.png" alt="">
+        <div class="p-details">
+          <h2>Calça</h2>
+          <h3>R$ 45,00</h3>
+        </div>
+      </div>
+      <div class="product">
+        <img src="img/camisa1.png" alt="">
+        <div class="p-details">
+          <h2>Camiseta</h2>
+          <h3>R$ 15,00</h3>
+        </div>
+      </div>
+      <div class="product">
+        <img src="img/relogio.jpg" alt="">
+        <div class="p-details">
+          <h2>Relógio</h2>
+          <h3>R$ 450,00</h3>
+        </div>
+      </div>
+      
+    </div>
+
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
